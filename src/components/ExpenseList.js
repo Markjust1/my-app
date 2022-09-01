@@ -1,8 +1,7 @@
-import "./expenses.css";
+import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
 
 export default function ExpenseList(props) {
-  console.log("props", props);
   return (
     <div className="expenses">
       <ExpenseItem
