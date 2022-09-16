@@ -1,9 +1,10 @@
-import './NewExpense.css';
+import "./NewExpense.css";
+import ExpenseForm from "./ExpenseForm";
 
 const NewExpense = () => {
   return (
-    <div className='new-expense'>
-      <form></form>
+    <div className="new-expense">
+      <NewExpense />
     </div>
   );
 };
